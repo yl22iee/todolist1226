@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AddTodo from "../AddTodo/AddTodo";
 import Todo from "../TodoDelete/Todo";
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 import "./TodoList.css";
 
 export default function TodoList({ filter }) {
